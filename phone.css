@@ -1,0 +1,104 @@
+/*Navigation*/
+
+#navbar{
+
+    flex-direction: column;
+}
+#navbar ul li {
+    
+    font-size: 1rem;
+    font-family: 'Lilita One', cursive;
+}
+#navbae ul li a{
+
+    font-size: 1.1rem;
+    padding: 3px 20px;
+}
+
+
+/*Home Section*/
+
+#home{
+
+    height: 480px;
+    padding: 3px 68px;
+
+
+}
+
+#home p{
+
+    font-size: 13px;
+}
+
+
+/*Services section*/
+#services{
+
+    flex-direction: column;
+
+}
+
+#services .box{
+
+    
+
+}
+
+#clients{
+
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+   
+}
+
+#client-section::before{
+
+    
+    height: 40%;
+   
+}
+
+
+#clients img{
+
+    width: 54px ;
+   height: auto;
+
+ 
+    
+}
+
+.clients-item{
+
+   padding: 19px;
+   
+}
+
+
+/*clients section*/
+ 
+
+/*Contact Us Section*/
+
+#contact-box form{
+
+    width: 70%;
+}
+
+
+/*Footer*/
+
+/*Utility classes */
+
+.h-primary{
+
+    font-size: 26px;
+}
+
+.btn{
+
+    font-size: 13px;
+    padding: 4px 8px;
+}
